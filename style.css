@@ -60,4 +60,15 @@ nav a {
 
 .descricao-produto h3 {
   margin-top: 0; 
+  color: black;
+}
+
+footer {
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
