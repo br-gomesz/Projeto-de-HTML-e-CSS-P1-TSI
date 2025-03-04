@@ -11,7 +11,7 @@ header {
     padding: 10px;
 }
 
-.header-content {
+.header-conteudo {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,7 +21,7 @@ header {
     height: 150px;
 }
 
-.header-center {
+.header-centro {
     text-align: center;
 }
 
@@ -31,7 +31,7 @@ nav a {
     margin-right: 10px;
 }
 
-.header-buttons button {
+.header-botoes button {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -40,7 +40,7 @@ nav a {
     cursor: pointer;
 }
 
-.header-buttons button:hover {
+.header-botoes button:hover {
     background-color: #0056b3;
 }
 
@@ -97,4 +97,8 @@ footer {
 
 h2 {
     margin-left: 50px;
+}
+
+div {
+    word-wrap: break-word;
 }
