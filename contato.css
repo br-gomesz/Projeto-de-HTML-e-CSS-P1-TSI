@@ -1,0 +1,19 @@
+header {
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+}
+
+.header-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 150px;
+}
+
+.header-centro {
+    text-align: center;
+}
