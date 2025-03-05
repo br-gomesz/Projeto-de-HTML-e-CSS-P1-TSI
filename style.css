@@ -102,6 +102,24 @@ h2 {
 div {
     word-wrap: break-word;
 }
+
+.contato-conteudo {
+    text-align: center;
+}
+
+.entre-contato {
+    text-align: center;
+}
+
+.contatos-p {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
 .header-bicicleta1 {
     background-color: #f0f0f0;
     padding: 20px;
