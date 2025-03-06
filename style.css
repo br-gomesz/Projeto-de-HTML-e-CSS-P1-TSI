@@ -156,3 +156,72 @@ a {
     font-weight: bold;
     margin-top: 10px;
   }
+.header-bicicleta2 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    color: black;
+    text-align: center;
+    bottom: unset;
+}
+.compra-secao2 {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    height: 80%; 
+    margin-left: 20px;
+  }
+.botao-compra2 {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+ .preco2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+.header-bicicleta3 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    color: black;
+    text-align: center;
+    bottom: unset;
+}
+.compra-secao3 {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    height: 80%; 
+    margin-left: 20px;
+  }
+.botao-compra3 {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+ .preco3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
