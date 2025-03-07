@@ -1,77 +1,114 @@
-# Zito Bike
-
-Bem-vindo à Zito Bike, sua loja de bicicletas em Solânea! Este site foi desenvolvido como um projeto em dupla para apresentar e vender diversos tipos de bicicletas.
+# Zito Bike - Website de Loja de Bicicletas
 
 ## Descrição
 
-O site Zito Bike é uma plataforma online que oferece informações sobre diversos modelos de bicicletas, desde as comuns até as elétricas e cruisers. Os visitantes podem navegar pelos produtos em destaque na página inicial e acessar páginas individuais para cada tipo de bicicleta, onde encontrarão descrições detalhadas e a opção de compra.
-
-## Funcionalidades
-
-* **Página Inicial:** Apresenta os produtos em destaque e informações gerais sobre a loja.
-* **Página de Produtos:** Lista todos os produtos disponíveis com fotos e descrições, permitindo acesso às páginas individuais de cada produto.
-* **Página de Contato:** Fornece informações de contato da loja, incluindo links diretos para WhatsApp, Instagram, telefone e e-mail.
-* **Páginas Individuais de Bicicletas:** Cada modelo de bicicleta possui sua própria página com detalhes específicos, imagem, preço e botão de compra.
-* **Navegação:** Menu de navegação intuitivo para facilitar a exploração do site.
-* **Botões de Login e Criar Conta:** Permitem que os usuários acessem suas contas ou criem novas.
+Este projeto é um website para a loja de bicicletas "Zito Bike", localizada em Solânea, Paraíba, Brasil. O site oferece uma vitrine de produtos destacados, informações de contato e uma experiência de usuário visualmente atraente com estilos personalizados.
 
 ## Tecnologias Utilizadas
 
 * HTML5
 * CSS3
+* Git
+* GitHub
 
-## Estilo Visual (CSS)
+## Estrutura do Projeto
 
-* **Fonte:** Verdana
-* **Cor de Fundo:** Preto (`background-color: black;`)
-* **Cor do Texto:** Laranja (`color: orange;`)
-* **Cabeçalho:** Fundo vermelho (`background-color: red;`), texto branco.
-* **Produtos em Destaque:** Fundo cinza claro (`background-color: #f0f0f0;`), com efeito de sombra e transição ao passar o mouse.
-* **Rodapé:** Fundo vermelho, texto branco.
-* **Botões:** Azuis (`background-color: #007bff;`), com efeito de hover.
-* **Botão de compra:** verde (`background-color: green;`)
-* **Responsividade:** O site usa `flexbox` para o layout dos produtos em destaque, permitindo que se adaptem a diferentes tamanhos de tela.
-* **Página individual de bicicleta:** fundo cinza claro, imagem centralizada, preço e botão de compra centralizados.
+O projeto consiste nos seguintes arquivos:
 
-## Como Executar o Projeto
+* `index.html`: Página inicial com destaques de produtos.
+* `produtos.html`: Página com uma lista de produtos e links para detalhes de produtos individuais.
+* `contato.html`: Página com informações de contato e um formulário para os clientes enviarem mensagens.
+* `style.css`: Arquivo de estilos CSS para o website.
+* `images/`: Diretório contendo as imagens usadas no website.
+* `bicicleta1.html`: Página de detalhes do produto "Caloi Explorer Sport".
+* `bicicleta2.html`: Página de detalhes do produto "Mountain Bike (MTB)".
+* `bicicleta3.html`: Página de detalhes do produto "Bicicleta de Estrada".
 
-1.  Clone o repositório para o seu computador.
-2.  Abra o arquivo `index.html` em seu navegador web.
+## Páginas
 
-## Estrutura de Pastas
+* **Página Inicial (index.html)**:
+    * Apresenta o logotipo da Zito Bike e uma mensagem de boas-vindas.
+    * Exibe uma seção de produtos em destaque com links para páginas de detalhes de produtos individuais.
+    * Inclui um menu de navegação e botões de login/criação de conta.
+* **Página de Produtos (produtos.html)**:
+    * Apresenta uma lista com informações sobre os produtos disponíveis, incluindo nome, e descrição.
+    * Inclui links para páginas de detalhes de produtos individuais.
+* **Página de Contato (contato.html)**:
+    * Fornece informações de contato, incluindo número de telefone, endereço e horário de funcionamento.
+    * Inclui um formulário para os clientes enviarem mensagens diretamente para a Zito Bike.
+* **Página de Detalhes do Produto (bicicleta1.html)**:
+    * Exibe detalhes específicos do produto "Caloi Explorer Sport", incluindo imagem, preço e botão de compra.
+* **Página de Detalhes do Produto (bicicleta2.html)**:
+    * Exibe detalhes específicos do produto "Mountain Bike (MTB)", incluindo imagem, preço e botão de compra.
+* **Página de Detalhes do Produto (bicicleta3.html)**:
+    * Exibe detalhes específicos do produto "Bicicleta de Estrada", incluindo imagem, preço e botão de compra.
 
-* `images/`: Contém as imagens utilizadas no site.
-* `index.html`: Página inicial do site.
-* `produtos.html`: Página com a lista de produtos.
-* `contato.html`: Página com informações de contato.
-* `style.css`: Arquivo com os estilos CSS do site.
-* `bicicleta1.html`: Página individual da "Caloi Explorer Sport".
-* `bicicleta-montanha.html`: Página individual da "Bicicleta de Montanha".
-* `bicicleta-estrada.html`: Página individual da "Bicicleta de Estrada".
-* `bicicleta-hibrida.html`: Página individual da "Bicicleta Híbrida".
-* `bicicleta-eletrica.html`: Página individual da "Bicicleta Elétrica".
-* `bicicleta-cruiser.html`: Página individual da "Bicicleta Cruiser".
-* `caloi-explorer-sport.html`: Página individual da "Bicicleta Comum(caloi explorer)".
+## Conteúdo das Páginas
 
-## Créditos
+* **Página Inicial (index.html)**:
+    * Cabeçalho com logotipo, título, navegação e botões de login/criação de conta.
+    * Seção de produtos em destaque com imagens, títulos e descrições.
+    * Rodapé com informações de contato.
+* **Página de Produtos (produtos.html)**:
+    * Seção de produtos com imagens, títulos e descrições.
+* **Página de Contato (contato.html)**:
+    * Cabeçalho com logotipo, título e navegação.
+    * Formulário de contato com campos para nome, e-mail, telefone e mensagem.
+    * Rodapé com informações de contato.
+* **Páginas de Detalhes dos Produtos (bicicleta1.html, bicicleta2.html, bicicleta3.html)**:
+    * Cabeçalho com logotipo, título e navegação.
+    * Seção com imagem do produto, título, preço e botão de compra.
 
-Desenvolvido por:
+## Estilos CSS (style.css)
+
+O arquivo `style.css` fornece os estilos visuais para o website. Abaixo estão as principais seções e seus propósitos:
+
+* **Estilos Globais:**
+    * `body`: Define a fonte padrão, margens, cor de fundo e cor do texto principal.
+    * `h2`: Define a margem esquerda para títulos.
+    * `div`: Garante que palavras longas sejam quebradas.
+    * `a`: Define a cor padrão dos links.
+* **Cabeçalho (`header`):**
+    * Define a cor de fundo, cor do texto e preenchimento do cabeçalho.
+    * `.header-conteudo`: Usa flexbox para organizar os elementos do cabeçalho.
+    * `.logo`: Define a altura do logotipo.
+    * `.header-centro`: Centraliza o texto no cabeçalho.
+    * `nav a`: Estiliza os links de navegação.
+    * `.header-botoes button`: Estiliza os botões do cabeçalho e seu efeito hover.
+* **Produtos em Destaque:**
+    * `.produto-destaque-container`: Usa flexbox para exibir os produtos em destaque.
+    * `.produto-destaque`: Estiliza os produtos individuais, incluindo fundo, borda, sombra e transições.
+    * `.produto-destaque img`: Define a largura máxima e margens das imagens dos produtos.
+    * `.produto-destaque a`: Estiliza os links dos produtos.
+    * `.descricao-produto h3`: Estiliza os títulos dos produtos.
+* **Rodapé (`footer`):**
+    * Define a cor de fundo, cor do texto, preenchimento e alinhamento do rodapé.
+* **Contato:**
+    * `.contato-conteudo`, `.entre-contato`, `.contatos-p`: Estiliza a seção de contato.
+* **Páginas de Produtos Individuais (header-bicicleta1, header-bicicleta2, header-bicicleta3):**
+    * Estiliza a exibição de produtos individuais, incluindo fundo, borda, sombra e alinhamento.
+    * `.compra-secao`, `.botao-compra`, `.preco`, `.compra-secao2`, `.preco2`, `.botao-compra3`, `.compra-secao3`, `.preco3`: Estiliza a seção de compra, botões e preços dos produtos.
+
+## Como Usar
+
+Para visualizar o website, basta abrir o arquivo `index.html` em um navegador da web.
+
+## Como Contribuir
+
+Se você deseja contribuir para este projeto, siga estas etapas:
+
+1.  Faça um fork do repositório.
+2.  Crie uma branch para suas alterações (`git checkout -b feature/sua-alteracao`).
+3.  Faça commit de suas alterações (`git commit -am 'Adiciona nova funcionalidade'`).
+4.  Faça push para a branch (`git push origin feature/sua-alteracao`).
+5.  Abra um pull request.
+
+## Contato
+
+* Telefone: (83) 3363-2134
+* Endereço: R. Pedro Augusto de Almeida, 102, Solânea - PB
+
+## Autores
 
 * Bruno Gomes
 * Yago Kauan
-
-## Informações de Contato
-
-* **WhatsApp:** [Link para WhatsApp](https://wa.me/+5583987121715)
-* **Instagram:** [Link para Instagram](https://www.instagram.com/zitobike)
-* **Telefone:** (83) 3363-2134
-* **E-mail:** zitobicicletas@hotmail.com
-
-## Notas Adicionais
-
-* A página de produtos (`produtos.html`) lista todos os modelos de bicicletas disponíveis, cada um com um link para sua página individual.
-* As páginas individuais de cada bicicleta ("bicicleta1.html", "caloi-explorer-sport.html" etc.) incluem um botão de compra e exibem o preço do produto.
-* A página `bicicleta1.html` exibe a "Caloi Explorer Sport" com imagem, preço (R$ 1800) e botão de compra.
-* O site utiliza `word-wrap: break-word;` para garantir que o texto se ajuste corretamente em todos os elementos.
-* A cor de fundo preta com texto laranja dá um estilo único ao site, mas pode ser ajustada conforme preferência.
-* A página de contato fornece links diretos para as principais formas de contato da loja, facilitando a comunicação com os clientes.
